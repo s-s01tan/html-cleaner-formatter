@@ -1,0 +1,24 @@
+/*  */
+.submit-btn-style {
+  background: linear-gradient(#007f90ce, #ffa2efc2);
+  cursor: pointer;
+  border: 0 !important;
+  transition: 0.4s;
+}
+
+.submit-btn-style:hover {
+  color: #fff !important;
+}
+
+.copy-btn-style {
+  margin-left: 6px;
+}
+
+@media (max-width: 465px) {
+  .submit-btn-style,
+  .copy-btn-style {
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 0;
+  }
+}
